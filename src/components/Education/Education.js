@@ -23,12 +23,12 @@ class Education extends Component {
                                                     <FaSchool />     
                                                 </div>
                                                 <div className={classes.label}>
-                                                <h2 >Higher Education  <span>2014-2016</span></h2>
-                                                <p>I have completed my higher education from HKIS with major subjects as Physics,Chemistry & Maths with 85 merit in CBSE board. </p>
+                                                <h2 >Higher Education  <span>June 2021-December 2021</span></h2>
+                                                <p>I have completed my higher education in Web Development from DigitalCrafts Coding Bootcamp. </p>
                                                 </div>
                                             </article>
                                         </ScrollAnimation>
-                                       <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible ={true}>
+                                       {/* <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible ={true}>
                                             <article className={classes.timeline_entry}>
                                                 <div className={classes.timeline_icon} >
                                                 <MdSchool />
@@ -38,15 +38,15 @@ class Education extends Component {
                                                 <p>I'm currently completing my undergraduation in CSE (Computer Science and Engineering) from <a href='http://sliet.ac.in/'>SLIET</a>. </p>
                                                 </div>
                                             </article>
-                                        </ScrollAnimation>
+                                        </ScrollAnimation> */}
                                         <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible ={true}>
                                             <article>
                                                 <div className={`${classes.timeline_icon} ${classes.timeline_icon_4}`} >
                                                     <MdWork />     
                                                 </div>
                                                 <div className={classes.label}>
-                                                <h2 >Internship</h2>
-                                                <p>Completed one month Internship in React Js with Internity Foundation</p>
+                                                <h2 >Employment</h2>
+                                                <p>I currently work at Roostify as a Technical Client Support Specialist.</p>
                                                 </div>
                                                 <div className={classes.timeline_entry_inner}><div  className={classes.timeline_icon_3||classes.color_none}></div></div>
                                             </article>

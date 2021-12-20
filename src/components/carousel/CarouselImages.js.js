@@ -18,8 +18,8 @@ import laptop1 from '../images/laptop1.jpg'
                 <div  className={classes.image_container} >
                     <img className={classes.image} src={Hello}  alt="myImage"/>
                     <div  className={classes.h1}>
-                       <h1 >I'm Sachin</h1>
-                       <a href="https://drive.google.com/open?id=1UEYXr47N9yD_9JxY457Vul4BwRizNVfv" rel="opener noreferrer" target="_blank">VIEW CV   <FaArrowCircleDown/></a>
+                       <h1 >I'm Vivek</h1>
+                       <a href="" rel="opener noreferrer" target="_blank">VIEW RESUME   <FaArrowCircleDown/></a>
                     </div>
                 </div>
                 <div className={classes.image_container}>
@@ -27,7 +27,7 @@ import laptop1 from '../images/laptop1.jpg'
                     <div  className={classes.h2}> 
                     <h1> I love building</h1>
                     <h1>THINGS!!</h1>
-                    <a href="https://github.com/mittalsam98" rel="opener noreferrer" target="_blank">VIEW PROJECTS   <GoProject/></a>
+                    <a href="https://github.com/vivekthak88" rel="opener noreferrer" target="_blank">VIEW PROJECTS   <GoProject/></a>
                     </div>
                 </div>
                 {/* <div className={classes.image_container}>

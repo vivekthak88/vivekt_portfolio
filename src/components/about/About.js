@@ -11,8 +11,8 @@ class About extends Component {
                     <span  className={classes.head}>ABOUT ME</span>
                     <h2 className={classes.heading}>Who Am I?</h2>
                     <div className={classes.About}>
-                        <p> My name is SACHIN MITTAL and I am currently pursuing my degree in Bachelor of Technology in Computer Science and Engineering from Sant Longowal Institute of Engineering and Technology. I want to be a developer as I am interested in developing new things which excite me a lot. :)  </p>
-                         <p className={classes.br}>I love exploring new technologies and being a practitioner, I like to stay on top of latest trends.
+                        <p> My name is Vivek Thakore and I just graduated from a Web Development Coding Bootcamp at DigitalCrafts. I want to be a developer as I am interested in developing new things. :)  </p>
+                         <p className={classes.br}>I love exploring new technologies and I like to stay on top of latest trends.
  </p>
                     </div>
                 </ScrollAnimation>
