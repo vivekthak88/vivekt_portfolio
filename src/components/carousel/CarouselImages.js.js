@@ -1,4 +1,4 @@
-import React, {Component, useState} from 'react'
+import React, {Component} from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import classes from './CarouselImages.module.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -7,6 +7,7 @@ import {GoProject} from 'react-icons/go';
 import {FaArrowCircleDown} from 'react-icons/fa';
 import Hello from '../images/Hello.jpg';
 import Pencil from '../images/Pencil.jpg';
+import resume from '../assets/resume.pdf'
 
  class CarouselImages extends Component {
      render(){
@@ -18,7 +19,7 @@ import Pencil from '../images/Pencil.jpg';
                     <img className={classes.image} src={Hello}  alt="myImage"/>
                     <div  className={classes.h1}>
                        <h1 >I'm Vivek</h1>
-                       <a href="./assets/VivekThakore2021resume.pdf" rel="opener noreferrer" target="_blank">VIEW RESUME   <FaArrowCircleDown/></a>
+                       <a href={resume} rel="opener noreferrer" target="_blank">VIEW RESUME   <FaArrowCircleDown/></a>
                     </div>
                 </div>
                 <div className={classes.image_container}>
