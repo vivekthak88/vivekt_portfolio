@@ -25,13 +25,13 @@ class Sidebar extends Component {
             </Link>
           </li>
           <li className="sidebar-nav-items">
-            <Link smooth to="/#education" className="links">
-              Education
+            <Link smooth to="/#interest" className="links">
+              Interest
             </Link>
           </li>
           <li className="sidebar-nav-items">
-            <Link smooth to="/#interest" className="links">
-              Interest
+            <Link smooth to="/#education" className="links">
+              Education
             </Link>
           </li>
           {/* <li className="sidebar-nav-items"><a href="http://www.bloggingpeek.com" target="_blank" rel="opener noreferrer" className="links"> Blog<FiExternalLink/></a></li> */}
