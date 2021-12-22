@@ -3,11 +3,10 @@ import { Carousel } from 'react-responsive-carousel';
 import classes from './CarouselImages.module.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "animate.css/animate.min.css"; 
-import {GoProject} from 'react-icons/go'
-import {FaArrowCircleDown} from 'react-icons/fa'
-import Hello from '../images/Hello.jpg'
-import Pencil from '../images/Pencil.jpg'
-import { Document, Page } from 'react-pdf'
+import {GoProject} from 'react-icons/go';
+import {FaArrowCircleDown} from 'react-icons/fa';
+import Hello from '../images/Hello.jpg';
+import Pencil from '../images/Pencil.jpg';
 
  class CarouselImages extends Component {
      render(){
@@ -19,7 +18,7 @@ import { Document, Page } from 'react-pdf'
                     <img className={classes.image} src={Hello}  alt="myImage"/>
                     <div  className={classes.h1}>
                        <h1 >I'm Vivek</h1>
-                       <a href="" rel="opener noreferrer" target="_blank">VIEW RESUME   <FaArrowCircleDown/></a>
+                       <a href="./assets/VivekThakore2021resume.pdf" rel="opener noreferrer" target="_blank">VIEW RESUME   <FaArrowCircleDown/></a>
                     </div>
                 </div>
                 <div className={classes.image_container}>
