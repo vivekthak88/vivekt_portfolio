@@ -19,7 +19,7 @@ import { Document, Page } from 'react-pdf'
                     <img className={classes.image} src={Hello}  alt="myImage"/>
                     <div  className={classes.h1}>
                        <h1 >I'm Vivek</h1>
-                       <a href="vivekt_portfolio\src\components\carousel\VivekThakore2021resume.pdf" rel="opener noreferrer" target="_blank">VIEW RESUME   <FaArrowCircleDown/></a>
+                       <a href="" rel="opener noreferrer" target="_blank">VIEW RESUME   <FaArrowCircleDown/></a>
                     </div>
                 </div>
                 <div className={classes.image_container}>
